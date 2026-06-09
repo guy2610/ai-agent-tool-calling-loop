@@ -170,6 +170,20 @@ python src/main.py
 
 ---
 
+## Bonus - LangGraph
+
+The same agent was reimplemented using LangGraph.
+
+LangGraph abstracts:
+- agent loop management
+- state handling
+- tool routing
+
+This reduces orchestration code while preserving the same tool-calling behavior.
+
+---
+
+
 ## AI Usage
 
 AI tools were used for brainstorming implementation ideas, discussing architecture options, and reviewing design decisions.
